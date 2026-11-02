@@ -1,0 +1,10 @@
+{
+  "name": "secret-santa-security",
+  "private": true,
+  "type": "module",
+  "description": "A Secret Santa draw for several families, guarded by deeply unnecessary security.",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node --test"
+  }
+}
